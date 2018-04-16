@@ -1,0 +1,264 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* Dit is voor mijn mooie achtergrond */
+    background: url('images/bg.jpg') repeat;
+    font-family: 'Open Sans', Tahoma, Arial, Verdana;
+    font-size: 13px;
+    color: #999;
+    height: 100%;
+}
+
+#algemeneContainer {
+    overflow: auto;
+    padding-bottom: 80px;
+}
+
+#hoofdContainer {
+    width: 100%;
+    height: 65px;
+    border-bottom: 1px solid #e0e0e0;
+    background: #fff;
+    -moz-box-shadow: 0px 0px 40px 0px #333;
+    -webkit-box-shadow: 0px 0px 40px 0px #333;
+    box-shadow: 0px 0px 40px 0px #333;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#c0c0c0')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#c0c0c0');
+}
+
+    #hoofdContainer h1 {
+        /* Dit is voor de header om mensen welkom te heten */
+        text-align: center;
+        font-weight: 300;
+        line-height: 55px;
+    }
+
+/* in deze container komen al mijn verhaaltjes */
+#mooieverhaaltjesContainer {
+    padding-top: 30px;
+    width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding-bottom: 80px;
+    clear: both;
+}
+
+    #mooieverhaaltjesContainer #marga-menu {
+        float: left;
+        width: 234px;
+        border: 6px solid #f9c1c0;
+        padding-left: 20px;
+        background-color: #f9c1c0;
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+    }
+
+        #mooieverhaaltjesContainer #marga-menu #margaPic {
+            border: 3px #000;
+            position: relative;
+            top: 15px;
+            left: 20px;
+            right: 0;
+            margin: auto;
+            -webkit-border-radius: 500px;
+            -moz-border-radius: 500px;
+            border-radius: 500px;
+            margin-bottom: 30px;
+        }
+
+        #mooieverhaaltjesContainer #marga-menu #twitterwidget {
+            margin-left: 40px;
+        }
+
+        #mooieverhaaltjesContainer #marga-menu ul {
+            *display: inline;
+            display: inline-block;
+            list-style-type: none;
+        }
+
+        #mooieverhaaltjesContainer #marga-menu li:first-child {
+            margin-top: 10px;
+        }
+
+        #mooieverhaaltjesContainer #marga-menu li:last-child {
+            margin-bottom: 25px;
+            border-bottom: none;
+        }
+
+        #mooieverhaaltjesContainer #marga-menu li {
+            line-height: 40px;
+            font-size: 13px;
+            border-bottom: 1px solid #FFD6F5;
+            width: 210px;
+        }
+
+            #mooieverhaaltjesContainer #marga-menu li span {
+                float: right;
+                background-color: #222;
+                border: 1px solid #c0c0c0;
+                color: #c0c0c0;
+                height: 15px;
+                line-height: 15px;
+                width: 15px;
+                vertical-align: middle;
+                text-align: center;
+                margin-top: 12px;
+                font-size: 10px;
+                border-radius: 15px;
+            }
+
+            #mooieverhaaltjesContainer #marga-menu li a {
+                padding-left: 27px;
+                display: block;
+                color: #525252;
+                text-decoration: none;
+                background: url('images/menu/home.png') left center no-repeat;
+            }
+
+                #mooieverhaaltjesContainer #marga-menu li a:hover {
+                    text-decoration: underline;
+                }
+
+            #mooieverhaaltjesContainer #marga-menu li.contact a {
+                background: url('images/menu/contact.png') left center no-repeat;
+            }
+
+            #mooieverhaaltjesContainer #marga-menu li.portfolio a {
+                background: url('images/menu/portfolio.png') left center no-repeat;
+            }
+
+            #mooieverhaaltjesContainer #marga-menu li.overmarga a {
+                background: url('images/menu/overmarga.png') left center no-repeat;
+            }
+
+            #mooieverhaaltjesContainer #marga-menu li.cv a {
+                background: url('images/menu/cv.png') left center no-repeat;
+            }
+
+            #mooieverhaaltjesContainer #marga-menu li.box a {
+                background: url('images/menu/box.png') left center no-repeat;
+            }
+
+/* mooi verhaaltje aan de rechterkant */
+    #mooieverhaaltjesContainer .hoofdverhaaltje
+    {
+        float: right;
+        width: 790px;
+        background-color: white;
+        margin-top: 0px;
+        -moz-box-shadow: 0 0 10px #ccc;
+        -webkit-box-shadow: 0 0 10px #ccc;
+        box-shadow: 0 0 10px #ccc;
+        overflow: hidden;
+        border: 5px solid #f9c1c0;
+        position: relative;
+        margin-bottom: 27px;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+
+        #mooieverhaaltjesContainer .hoofdverhaaltje .imgTopic
+        {
+            position: absolute;
+            top: 0px;
+        }
+
+        #mooieverhaaltjesContainer .hoofdverhaaltje .overview
+        {
+            width: 590px;
+            position: relative;
+            margin-left: 70px;
+            padding: 20px 30px;
+        }
+
+            #mooieverhaaltjesContainer .hoofdverhaaltje .overview h2
+            {
+                font-family: 'Open Sans', Arial, Calibri;
+                font-size: 32px;
+                font-weight: 300;
+                color: #333;
+                margin-bottom: 20px;
+            }
+
+            #mooieverhaaltjesContainer .hoofdverhaaltje .overview h5
+            {
+                margin-left: 3px;
+                margin-bottom: 5px;
+                font-size: 16px;
+                font-weight: 500;
+                color: #999;
+            }
+
+        #mooieverhaaltjesContainer .hoofdverhaaltje .content
+        {
+            width: 590px;
+            position: relative;
+            margin-top: 300px;
+            background-color: white;
+            margin-left: 70px;
+            padding: 20px 30px;
+        }
+
+            #mooieverhaaltjesContainer .hoofdverhaaltje .content h4
+            {
+                font-family: 'Open Sans', Arial, Calibri;
+                font-weight: 600;
+                color: #c0c0c0;
+                margin-bottom: 5px;
+            }
+
+            #mooieverhaaltjesContainer .hoofdverhaaltje .content h2
+            {
+                font-family: 'Open Sans', Arial, Calibri;
+                font-size: 32px;
+                font-weight: 300;
+                color: #333;
+                margin-bottom: 20px;
+            }
+
+                #mooieverhaaltjesContainer .hoofdverhaaltje .content h2:hover
+                {
+                    cursor: pointer;
+                }
+
+            #mooieverhaaltjesContainer .hoofdverhaaltje .content p
+            {
+                font-family: 'Open Sans', Arial, Calibri;
+                font-size: 14px;
+                line-height: 27px;
+                letter-spacing: 0.2px;
+                margin-bottom: 20px;
+            }
+
+        #mooieverhaaltjesContainer .hoofdverhaaltje a
+        {
+            text-decoration: none;
+        }
+
+        #mooieverhaaltjesContainer .hoofdverhaaltje .button
+        {
+            background-color: #174a67;
+            background-image: url('images/leesmeer.png');
+            background-repeat: no-repeat;
+            background-position-x: 5%;
+            background-position-y: bottom;
+            font-family: 'Open Sans', Arial, Calibri;
+            padding: 5px 15px 5px 35px;
+            margin-bottom: 20px;
+            /* background-color: #335CAD; */
+            color: #fff;
+            font-size: 16px;
+            height: 20px;
+            line-height: 20px;
+            width: 98px;
+            border-radius: 100px;
+        }
+
+            #mooieverhaaltjesContainer .hoofdverhaaltje .button:hover
+            {
+                cursor: pointer;
+            }
